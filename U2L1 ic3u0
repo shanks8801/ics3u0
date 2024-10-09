@@ -1,0 +1,15 @@
+name = "Leslie"
+print("Hello", name)
+print("Make a choice from the following menu: ")
+print("A: orange")
+print("B: watermelon")
+print("C: cherry")
+
+ch = input("Your choice: ")
+
+if (ch == "A"):
+    print("I prefer orange")
+elif (ch == "B"):
+    print("I prefer watermelon")
+else:
+    print("I prefer cherry")
